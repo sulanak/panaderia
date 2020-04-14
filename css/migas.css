@@ -1,0 +1,950 @@
+/*CAMBIO ESTILO, SI CAMBIAN CONDICIONES*/
+ @media (orientation:portrait){
+    #textocontactanos{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.3vw;
+      font-weight: normal;
+      color: black;
+      text-align: center;
+    }
+  }
+ 
+
+/*ESTILOS HOME*/
+
+
+/*BODY*/
+ #bod{
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+/*HTML*/
+#ht{
+ height: auto;
+}
+ 
+ /*es y pt para seleccion de idioma en la parte superior dcha*/
+  #idiomas ul li {
+      display: inline-block;
+      margin-top: 15px;
+      margin-right: 15px;
+  }
+  
+/*es y pt llevarlo a la derecha y color de fondo*/
+  #idiomas {
+      text-align:right;
+      background-color: #FCF8EE;
+  }
+/*es y pt textos tipo de letra y quitar el subrayado*/      
+  #idiomas a {
+      font-family: "helvetica";
+      text-decoration:none;
+  }
+ 
+/*caracteristicas del contenedor del logo*/      
+  .contenedorlogo{
+      margin-top: 0em;
+      margin-bottom: 0px;
+      max-width: 100%;
+      text-align:center;
+      margin:auto;
+      clear:top;
+ /* height: 100%; */
+ height: auto;
+  }
+  
+/*barra menu fondo naranja */      
+  #menu  {
+      background-color: #FB9F43;
+    }
+
+/*menu quitar subrayado a los textos, márgenes y adaptable para distintos tamaños */      
+  #menu ul {
+      list-style: none;
+      display: flex;
+      margin-bottom: 0px;
+      margin-top: 0px;  
+  }
+  /*menu espacio con respecto al rceuadro */      
+  #menu ul li {
+      padding: 10px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  /*menu color, cuerpo de letra responsive y tipo de letra + quitar subrayado */   
+  #menu ul li a{
+      color: white;
+      font-family: "helvetica";
+      font-size: 1.5vw;
+      text-decoration: none;
+      padding: 5px;
+   }
+  
+/*menu efecto más claro de la pastilla naranja a naranja más claro y cambiar texto a negro cuando pasa el puntero */   
+ #menu ul li a:hover{
+      color: black;
+      background-color: #FCF8EE;
+   }
+
+/*dejar inicio más claro aunque no pase el ratón ya que es el link que corresponde a la página que estamos viendo */   
+.paginaseleccionada{
+	color: black !important;
+	background-color: #FCF8EE;
+   }
+   
+   
+/*imagen central ajustada al ancho del contenedor*/   
+
+#pad{
+    position: relative;
+    width: 100%;
+  }
+  /*
+@supports(object-fit: cover){
+    #pad img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+    
+    */
+}
+  #imprincipal{
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}             
+
+/*Slogan, tipo, estilo, cuerpo(responsive), color, situación*/ 
+  #hij{
+      font-family: Helvetica;
+      font-weight: bold;
+      font-size: 3vw;
+      color: white;
+      position: absolute;
+      bottom: 0%;
+      left: 10%;
+      right: 10%;
+  }
+
+#fotcentral{
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/*contenedor dos bloques: Nuestros productos y formulario*/ 
+.nav{
+    width: 100%;
+  height: auto; 
+    left: 0em;
+    position: relative;
+}
+ 
+
+/*section, titulos negrita*/ 
+.titprod{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: relative;  
+
+  }
+  
+/*section, titulo no  negrita*/ 
+.titprodnorm{
+    font-family: Helvetica;
+    font-size: 2.5vw;
+    font: normal;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: relative;  
+  }
+    
+/*section, texto nuestros productos (aunque fuente está indicada en body)∫*/ 
+  #prod{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    color: black;
+    text-align: left;
+    padding-inline-start: 10%;
+    padding-inline-end: 10%;
+  }
+
+
+/*contenedor dos secciones panaderia y pasteleria*/ 
+#contenpancroi{
+  width: 100%;
+  overflow: hidden;
+}
+/*para las dos secciones panaderia y pasteleria*/   
+.panybot{
+  float: left;
+  width: 50%;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+/*para las dos fotos secciones panaderia y pasteleria*/   
+#pan{
+border-radius: 5% 5%; 
+max-width: 95%;
+}  
+ 
+ #croissant{
+  border-radius: 5% 5%; 
+  max-width: 95%;
+} 
+
+/*boton panaderia*/   
+#botonuno{
+  text-decoration: none;
+  padding: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  color: white;
+  background-color: #fcad56;
+  border-radius: 15px;
+}   
+
+/*boton pasteleria*/   
+#botondos{
+  text-decoration: none;
+  padding: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  color: white;
+  background-color: #fc758e;
+  border-radius: 15px;
+}  
+
+
+/*contenedor formulario*/   
+.formulario{
+background-color: #DCDCDC;
+  height: 100%;
+}
+
+/*textos datos formulario*/   
+.etiquetas{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1em;
+}
+
+/*textos formulario*/   
+.label{
+  /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+     display: inline-block;
+     width:   10%;
+     font-size: 2vw;
+     text-align: left;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+/*casillero formulario*/   
+ .textar{
+	/* Para asegurarse de que todos los campos de texto tienen las mismas propiedades de fuente
+    Por defecto, las areas de texto tienen una fuente con monospace */
+    font: 1em sans-serif;
+
+    /* Para darle el mismo tamaño a todos los campos de texto */
+    width: 35%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 3px;
+
+    /* Para armonizar el look&feel del borde en los campos de texto */
+    border: 1px solid #999;
+}
+
+
+/*textos medianos  negrita*/   
+#titprodnorm{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+/*columnas productos*/   
+.columnasproductos{
+  width: 50%;
+  overflow: hidden;
+  background-color: #F5F5F5;
+}
+
+/*contenedor formulario*/   
+#contenformul{
+  background-color: #F5F5F5;
+  
+}
+.fondformul{
+  background-color: #DCDCDC;
+  padding-left: 5px;
+}
+
+
+/*contenedor sección*/   
+#seccion{
+height: 300px;
+background-color: white;
+}
+/*contenedor columnas productos panaderia y pasteleria formulario*/   
+
+.saladoydulce{
+  background-color: #F5F5F5;
+  float: left;
+  width: 40%;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10%;
+  height: auto;
+}
+
+/*columnas nuestros productos en el formulario*/   
+.productosformulario{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5vw;
+	text-align: left;
+}
+
+
+/*check aviso legal*/   
+#aviso{
+  float: right;
+width: 50%;
+background-color: #DCDCDC;
+margin-top: 5px;
+align-content: center;
+padding-top: 5px;
+padding-bottom: 5px;
+height: auto;
+margin-bottom: 0em;
+}
+
+
+/*footer*/   
+#fot{
+  overflow: hidden;
+  background-color: #42150F;
+  width: 100%;
+  margin-top: 0px;
+  height: auto;
+}
+
+/*bloque 1 footer*/   
+.finaldiv1{
+  float: left;
+  width: 40%;
+  height: auto;
+  background-color: #42150F;
+  }
+/*bloque 2 footer*/   
+.finaldiv2{
+  float: left;
+  width: 20%;
+  height: auto;
+  background-color: #42150F;
+  align-content: center;
+  }
+
+/*bloque 3 footer*/   
+.finaldiv3{
+  float: left;
+  width: 40%;
+  height: auto;
+  background-color: #42150F;
+  align-items: left;
+  }
+  
+/*textos bloque 3 footer*/   
+    #final1{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.5vw;
+      font-weight: bold;
+      text-align: left;
+      color: white;
+      padding-left: 2vw;
+    }
+    #final2{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.2vw;
+      font-weight: normal;
+      text-align: left;
+      color: white;
+      padding-left: 2vw;   
+    }
+  /*titulo bloque 1 footer*/   
+    #final3{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.5vw;
+      font-weight: bold;
+      text-align: center;
+      color: white;
+      padding-left: 2vw;   
+    }
+    
+    /*direccion bloque 3 footer*/     
+    #final4{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1vw;
+      font-weight: normal;
+      text-align: left;
+      color: white;
+      padding-left: 2vw; 
+      align-content: left; 
+      justify-items: left;
+    }
+    #final5{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.5vw;
+      font-weight: bold;
+      text-align: center;
+      color: black;
+      padding-left: 2vw;
+
+    }
+    .final6{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.5vw;
+      font-weight: normal;
+      text-align: center;
+      color: black;
+      padding-left: 2vw;   
+    }
+ 
+
+/*INFERIOR FORMULARIO CONTACTAR CHECK ACEPTAR AVISO LEGAL*/
+  #aviso2{
+      font-family: Arial, Helvetica, sans-serif;
+font-size: 1vw;
+font-weight: normal;
+color: white;
+
+
+/*boton pedido*/
+    }
+    #botpedido{
+      text-decoration: none;
+      padding: 5px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.5vw;
+      color: white;
+      background-color: #fcad56;
+      border-radius: 7px;
+    }
+   /*boton envio*/ 
+    #botenvio{
+      text-decoration: none;
+      padding-top: 1%;      
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 1%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.9em;
+      color: white;
+      background-color: #fcad56;
+      border-radius: 7px;
+    }
+    
+    /*logos redes*/    
+    .ic{
+      width: 18%;
+    }
+    
+ /*imagen mapa localizacion*/    
+    .fotlocalizacion{
+      width: 70%;     
+    }
+
+
+
+/*ESTILOS QUIENES SOMOS*/
+
+/*textos formulario*/   
+.label2{
+  /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+ 	 display: inline-block;
+ 	 width: 25%;
+     text-align: left;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 1vw;
+     color: white;
+     padding-left: 5px;
+ }
+.textar2{
+  /* Para asegurarse de que todos los campos de texto tienen las mismas propiedades de fuente
+         Por defecto, las areas de texto tienen una fuente con monospace */
+      font: 1em sans-serif;
+  
+      /* Para darle el mismo tamaño a todos los campos de texto */
+      width: 50%;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      border-radius: 5px;
+      margin-bottom: 3px;
+
+  
+      /* Para armonizar el look&feel del borde en los campos de texto */
+      border: 1px solid #999;
+  }
+  
+
+  /*caracteristicas del contenedor del logo*/      
+  .contenedorsomoslogo{
+    margin-top: 0em;
+    max-width: 100%;
+    text-align:center;
+}
+  
+ /*contenedor links pequeños orientativos*/        
+ .grisclaro{
+  background-color: #DCDCDC;
+  display: flex;
+  align-items: center;
+justify-content: center;
+}
+
+ /*textos links pequeños orientativos*/        
+ .letrapeqlinks{
+      font-size: 0.9vw;
+      font-family: Arial, Helvetica, sans-serif;
+      color: black;
+      font-weight: bold;
+     padding-top: 3px;
+      padding-bottom: 3px;
+      text-decoration-line: none;  
+     }
+     
+.letrapeqlinkslight{
+      font-size: 0.9vw;
+      font-family: Arial, Helvetica, sans-serif;
+      color: black;
+      font-weight: normal;
+		padding-top: 3px;
+      padding-bottom: 3px;
+      text-decoration-line: none;
+     }
+
+.letrapeqlinkslightred{
+
+      font-size: 0.9vw;
+      font-family: Arial, Helvetica, sans-serif;
+      color: red;
+      font-weight: bold;
+     padding-top: 3px;
+      padding-bottom: 3px;
+      text-decoration-line: none;
+     }
+     
+/*contenedor seccion*/        
+     #seccionsomos{
+      width: 100%;
+      margin-bottom: 5%;
+     }
+     
+/*contenedor articulo*/        
+     .contenedorarticulo{
+      width: 90%;
+      text-align: justify;
+          margin-left: auto;
+          margin-right: auto;
+
+     }
+    
+.contenedorarticulo img{
+    float: right;
+    width: 50%;
+    margin-left: 10px;
+  }
+
+
+/*ESTILOS PRODUCTOS*/
+
+/*nav*/        
+.nav2{
+    width: 60%;
+    left: 0em;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*contenedor panaderia y pasteleria*/        
+#contenpancroi2{
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+}
+ /*contenedor panaderia*/           
+.panybot2{
+  width: 100%;
+  height: auto;
+  align-content: center;
+  margin-top: 20%;
+}
+ /*contenedor pasteleria*/           
+.panybot3{
+  float: left;
+  width: 50%;
+height: auto;
+margin-bottom: 20%;
+}
+ 
+/*ESTILOS REALIZAR PEDIDO*/   
+ /*formulario*/            
+ .label3{
+  /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+  display: inline-block;
+  width: 20%;
+     text-align: left;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 1.5vw;
+     color: black;
+     padding-left: 5px;
+ }
+ 
+ .textar3{
+/* Para asegurarse de que todos los campos de texto tienen las mismas propiedades de fuente
+       Por defecto, las areas de texto tienen una fuente con monospace */
+    font: 1em sans-serif;
+
+    /* Para darle el mismo tamaño a todos los campos de texto */
+    width: 70%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    height: 5%;
+
+
+    /* Para armonizar el look&feel del borde en los campos de texto */
+    border: 1px solid #999;
+}
+
+ /*formulario contenedor*/            
+#realizarpedido{
+width: 100%;
+}
+.pedidoproductos{
+  width: 100%;
+  overflow: hidden;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+.saladoydulcerealizar{
+  background-color: #F5F5F5;
+  width: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*caracteristicas del contenedor idiomas*/      
+.contenedoridiomrealizar{
+    margin-top: 0em;
+    margin-bottom: 0px;
+    max-width: 100%;
+    text-align:center;
+    margin:auto;
+    clear:top;
+/* height: 100%; */
+height: auto;
+}
+/*color fondo contenedor logo*/      
+#fondolog{
+  background-color: #FCF8EE;
+	text-align: center;
+}
+/*idiomas*/      
+#idiomas ul{
+  margin-top: 0em;
+  margin-bottom: 0em;
+  background-color: #FCF8EE;
+}
+
+/*formulario contenedor dos bloques productos, panaderia y pasteleria*/            
+.pedidorealizar{
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+}
+
+.nav3{
+  width: 100%;
+  left: 0em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*formulario caracteristicas apartados panaderia y pasteleria*/            
+.saladoydulcerealizar{
+  float: left;
+  width: 35%;
+  height: auto;
+  background-color: #FCF8EE;
+margin: 2.5%;
+text-align: left;
+padding: 4%;
+border-radius: 7px;
+}
+/*titulos*/            
+#nuestros{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2vw;
+  font-weight: bolder;
+  font-stretch: extra-condensed;
+  color: black;
+  text-align: center;
+  position: relative;  
+}
+
+/*check aviso legal pagina realizarpedido*/   
+#avisorealizar{
+
+  margin: 10px;
+  font-family: "helvetica";
+}
+
+      /*ESTILOS CONTACTAR*/
+      #fotcontactar{
+        background-color: #42150F;
+        width: 100%;
+        height: 15%; 
+        align-items: center;
+      }
+
+        .finaldiv1contactar{
+          
+          float: left;
+          width: 40%;
+          height: auto;
+          background-color: white;
+          margin-left: 5%;
+          align-items: center;
+
+          
+          }
+          .finaldiv1contactar a{
+          align-items: center;
+          }
+        
+        
+        .finaldiv3contactar{
+          background-color: tomato;
+          width: 40%;
+          height: auto;
+          align-items: left;
+          float: left;
+          margin-left: 5%;
+          }
+
+          .finaldiv2contactar{
+            overflow: hidden;
+            height: 100%;
+            width: 100%;
+            margin-bottom: auto;
+            margin-top: auto;
+            padding-top: 3%;
+            
+            }
+    
+    
+          .iccontactar{
+            width: 6%;
+          }
+          .redes1{
+            float: left;
+            width: 50%;
+
+
+          }
+          .redes2{
+            width: 50%;
+            float: left;
+          }
+          #finalcontactar{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5vw;
+            font-weight: bold;
+            color: white;
+            text-align: right;
+          }
+
+          #seccioncontactar{
+            overflow: hidden;
+          }
+
+          #contactanos{
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 3vw;
+            font-weight: bold;
+            color: black;
+            text-align: center;
+
+          }
+          #textocontactanos{
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5vw;
+            font-weight: normal;
+            color: black;
+            text-align: center;
+
+          }
+
+          .labelcontac{
+            /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+            display: inline-block;
+            width: 25%;
+               text-align: left;
+               font-family: Arial, Helvetica, sans-serif;
+               font-size: 2vw;
+               color: black;
+               padding-left: 5px;
+           }
+
+           .textarcontac{
+            /* Para asegurarse de que todos los campos de texto tienen las mismas propiedades de fuente
+                   Por defecto, las areas de texto tienen una fuente con monospace */
+                font: 1em sans-serif;
+            
+                /* Para darle el mismo tamaño a todos los campos de texto */
+                width: 65%;
+                height: 5%;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                border-radius: 5px;
+                margin-bottom: 3px;
+          
+            
+                /* Para armonizar el look&feel del borde en los campos de texto */
+                border: 1px solid #999;
+            }
+            
+            #textarcontac2{
+              /* Para asegurarse de que todos los campos de texto tienen las mismas propiedades de fuente
+                     Por defecto, las areas de texto tienen una fuente con monospace */
+                  font: 1em sans-serif;
+              
+                  /* Para darle el mismo tamaño a todos los campos de texto */
+                  width: 93%;
+                  height: 10%;
+                  -moz-box-sizing: border-box;
+                  box-sizing: border-box;
+                  border-radius: 5px;
+                  margin-bottom: 3px;
+                  margin-top: 4px;
+            
+              
+                  /* Para armonizar el look&feel del borde en los campos de texto */
+                  border: 1px solid #999;
+              }
+
+              #aviso3{
+                font-family: Arial, Helvetica, sans-serif;
+          font-size: 2vw;
+          font-weight: normal;
+          color: black;
+          
+              }
+              #finalcontac1{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.5vw;
+                font-weight: bold;
+                text-align: left;
+                color: black;
+                padding-left: 2vw;
+              }
+              #finalcontac2{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1vw;
+                font-weight: normal;
+                text-align: left;
+                color: black;
+                padding-left: 2vw; 
+                align-content: left; 
+                justify-items: left;
+              }
+              .fotlocalizacioncontac{
+                width: 100%;    
+              }
+
+              #fondologcontac{
+            	background-color: #FCF8EE;
+            	text-align: center;
+            	
+          }
+                 
+
+    /*PANADERIA */
+    .productos {
+    display: flex;
+  	width: 100%;
+flex: wrap
+   }
+    
+    #prod2{
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 2vw;
+          font-weight: normal;
+          color: black;
+
+    }
+    .fotos{
+    width:100%;
+      background-color: #FB9F43;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 1%;
+      margin-bottom: 5%;
+    }
+    
+     /*contenedor seccion panaderia (pagina panaderia)*/           
+.panybotpanaderia{
+  width: 100%;
+  height: auto;
+  align-content: center;
+  margin-top: 20px;
+}
+/*footer*/   
+#fotpanaderia{
+  overflow: hidden;
+  background-color: #42150F;
+  width: 100%;
+  margin-top: 20px;
+  height: auto;
+}
+
+.titprodsecciones{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vw;
+    font-weight: bold;
+    color: 42150F;
+    text-align: center;
+    padding: 10px;
+    position: relative; 
+ 
+
+}
+          
+          
+              
+            
+          
+      
+
+      
+        
+      
+      
+
+
+
