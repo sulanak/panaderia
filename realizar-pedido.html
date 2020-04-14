@@ -1,0 +1,190 @@
+<html id="ht" lang="es">
+
+<head>
+  <title>Migas hermanas</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./css/migas.css">
+  <link rel="stylesheet" href="./css/normalize.css" />
+
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+</head>
+<body>
+ <div>
+      <div id="idiomas">
+          <ul>
+            <li><a alt="seleccion idioma castellano" href="#">es</a></li>
+            <li><a alt="seleccion idioma portugues" href="#">pt</a></li>
+        </ul>
+      </div> 
+
+     <div id=fondolog> 
+            <img  alt="Logotipo migas hermanas"  onclick="location.href='./index.html'"  src="./img/logotipo.png">
+     </div>
+
+      <div id="menu">
+        <ul>
+          <li><a alt="boton menu inicio" onclick="location.href='./index.html'" href="#">INICIO</a></li>
+          <li><a alt="boton menu quienes somos" onclick="location.href='./quienes-somos.html'" href="#">QUIENES SOMOS</a></li>
+          <li><a alt="boton menu productos" onclick="location.href='./productos.html'" href="#">PRODUCTOS</a></li>
+          <li><a alt="boton menu realizar pedidos" class="paginaseleccionada" onclick="location.href='./realizar-pedido.html'" href="#">REALIZAR PEDIDOS</a></li>
+          <li><a alt="boton menu contactanos" onclick="location.href='./contactar.html'" href="#">CONTÁCTANOS</a></li>
+    </ul>
+    </div>
+
+<nav> 
+<img  id=fotcentral id="pad" src="./img/baguettepedido.jpg">
+<div class="grisclaro">
+  <div> <p class="letrapeqlinks">Estás en:&nbsp;&nbsp;>&nbsp;&nbsp;</p></div>
+  <div><a alt="link a inicio" class="letrapeqlinkslight" onclick="location.href='./index.html'" href="#">Inicio</a></div>
+  <div><p class="letrapeqlinks">&nbsp;&nbsp;>&nbsp;&nbsp;</palt=""></div>
+  <div><a alt="link a quienes somos"  class="letrapeqlinkslight" onclick="location.href='./quienes-somos.html'" href="#">Quienes somos</a></div>
+  <div><p class="letrapeqlinks">&nbsp;&nbsp;>&nbsp;&nbsp;</p></div>
+  <div><a alt="link a productos" class="letrapeqlinkslight" onclick="location.href='./productos.html'" href="#">Productos</a></div>
+  <div><p class="letrapeqlinks">&nbsp;&nbsp;>&nbsp;&nbsp;</palt=""></div>
+ <div> <a alt="link a realizar pedido" class="letrapeqlinkslightred" onclick="location.href='./realizar-pedido.html'" href="#">Realizar pedido</a></div>
+ <div><p class="letrapeqlinks">&nbsp;&nbsp;>&nbsp;&nbsp;</p></div>
+ <div><a alt="link a contactanos" class="letrapeqlinkslight" onclick="location.href='./contactar.html'" href="#">Contáctanos</a></div>
+</nav>
+
+
+
+
+
+
+
+<nav class="nav2">
+
+    <form id="realizarpedido">
+    
+        <p  class="titprodsecciones" >Realiza tu pedido</p>
+     <div>
+       <label class="label3" for="name">Nombre:</label>
+      <input class="textar3" type="text" id="name" />
+     </div>
+     <div>
+         <label class="label3" for="name">Apellidos:</label>
+         <input class="textar3" type="text" id="apellidos" />
+     </div>
+     <div>
+         <label class="label3" for="mail">E-mail:</label>
+         <input class="textar3" type="email" id="mail" />
+       </div>   
+
+      <p class="titprodnorm" >¿Qué productos quieres comprar?</p>
+
+       <div class="pedidorealizar">
+
+          <div class="saladoydulcerealizar">
+             <p id="nuestros" >NUESTROS<br>SALADOS</p>
+
+             <input type="checkbox" name="option" id="check16" />
+             <label alt="seleccionar pan de trigo" class="productosformulario"  for="check16">Pan de trigo</label><br>
+             <input type="checkbox" name="option" id="check17" />
+             <label alt="seleccionar pan de trigo del pais"  class="productosformulario" for="check17">Pan de trigo del país</label><br />
+             <input type="checkbox" name="option" id="check18" />
+             <label alt="seleccionar pan centeno" class="productosformulario" for="check18">Pan centeno</label><br />
+             <input type="checkbox" name="option" id="check19" />
+             <label alt="seleccionar pan integra sin sal" class="productosformulario" for="check19">Pan integral sin sal</label><br />
+             <input type="checkbox" name="option" id="check20" />
+             <label alt="seleccionar pan de cereales" class="productosformulario"  for="check20">Pan de cereales</label><br />
+             <input type="checkbox" name="option" id="check21" />
+             <label alt="seleccionar pan de ajo" class="productosformulario" for="check21">Pan de ajo</label><br />
+             <input type="checkbox" name="option" id="check22" />
+             <label alt="seleccionar pan de nueces" class="productosformulario" for="check22">Pan de nueces</label><br />
+             <input type="checkbox" name="option" id="check23" />
+             <label alt="seleccionar pan de quinoa" class="productosformulario" for="check23">Pan de quinoa</label><br />
+             <input type="checkbox" name="option" id="check24" />
+             <label alt="seleccionar pan de cebolla" class="productosformulario" for="check24">Pan de cebolla</label><br />
+             <input type="checkbox" name="option" id="check25" />
+             <label alt="seleccionar Pretzel" class="productosformulario" for="check25">Pretzel</label><br />
+        </div>
+
+          <div class="saladoydulcerealizar">
+            <p id="nuestros" >NUESTROS<br>DULCES</p>
+
+          <input type="checkbox" name="option" id="check26" />
+          <label alt="seleccionar croissant" class="productosformulario" for="check26">Croissant</label><br />
+          <input type="checkbox" name="option" id="check27" />
+          <label alt="seleccionar Donut" class="productosformulario" for="check127">Donut</label><br />
+          <input type="checkbox" name="option" id="check28" />
+          <label alt="seleccionar macarrons" class="productosformulario" for="check28">Macarrons</label><br />
+          <input type="checkbox" name="option" id="check29" />
+          <label alt="seleccionar Ensaimadas" class="productosformulario"  for="check29">Ensaimadas</label><br />
+          <input type="checkbox" name="option" id="check30" />
+          <label alt="seleccionar napolitanas" class="productosformulario" for="check30">Napolitanas</label><br />
+
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+         </div>
+
+
+     </div> 
+
+    <div id="avisorealizar">
+      <a alt="ok enviar  pedido"  href="botpedido" id="botpedido">Realizar pedido</a><br><br>
+
+      <input alt="aviso legal aceptar"  id="checpedido" type="checkbox" name="option" id="check31" />
+      <label for="check31">Acepto el aviso legal</label>
+    </div> 
+    </form> 
+    
+  </nav>
+      
+
+
+
+
+<footer id="fot">
+  <div class="finaldiv1">
+    <form>
+
+    <p id=final1 >Contacta con nosotros</p>
+    <p id=final2 >www.migashermanas.com  -  info@migashermanas.com</p>
+
+    <label class="label2" for="name2">Nombre:</label>
+        <input class="textar2" type="text" id="name2" /><br>
+
+        <label class="label2" for="name2">Apellidos:</label>
+        <input class="textar2" type="text" id="apellidos2" /><br>
+
+
+        <label class="label2" for="mail2">e-mail:</label>
+        <input class="textar2" type="email" id="mail2" /><br>
+
+
+        <label class="label2" for="msg">Comentarios:</label>
+        <textarea class="textar2" id="msg"></textarea><br>
+
+        <input alt="aceptar aviso legal" type="checkbox" name="option2" id="check17" />
+        <label id="aviso2" for="check17">Acepto el aviso legal</label>
+        <a alt="boton enviar datos de contacto" href="botenvio" id="botenvio">Enviar</a><br>
+
+
+    </form>
+        
+  </div>
+
+  <div class="finaldiv2">
+    <p id=final3 >Síguenos en:</p>
+    <img alt="Logotipo facebook" class="ic" src="img/facebook.png">
+    <img alt="Logotipo twitter"  class="ic" src="img/001-twitter.png">
+    <img alt="Logotipo instagram" class="ic" src="img/002-instagram.png">
+
+  </div>
+
+  <div class="finaldiv3">
+    <p id=final1 >Localización</p>
+    <p id=final4 >Avda. Luis Espada, 26 bajo - 32600 Verin, Province of Ourense</p><br>
+    <img alt="mapa localizacion" class="fotlocalizacion" src="./img/localizacion.png">
+  </div>
+
+</footer>
+</body>
+</html>
+
+
+  

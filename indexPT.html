@@ -1,0 +1,219 @@
+<html id="ht" lang="es">
+
+<head>
+  <title>Migalhas irmãs</title>
+  
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  
+	<link rel="stylesheet" href="./css/migas.css">
+	<link rel="stylesheet" href="./css/normalize.css" />
+</head>
+
+<body id="bod">
+ 	 <div class="contenedorlogo">
+<!--CONTIENE LA SELECCION DE IDIOMAS-->          
+     	 <div id="idiomas">
+         	 <ul>
+          	  <li><a alt="Seleção de idioma espanhol" href="index.html">es</a></li>
+          	  <li><a alt="Seleção de idioma português" href="indexPT.html">pt</a></li>
+       		 </ul>
+      </div>
+      
+<!--CONTIENE EL LOGOTIPO SUPERIOR CENTRAL-->          
+	<div id=fondolog> 
+        <img alt="Logotipo migas hermanas" src="img/logotipo.png">
+	</div>
+	
+<!--CONTIENE BOTONES MENU-->
+	<div id="menu">
+        <ul>       
+          <li><a alt="botão do menu iniciar"  class="paginaseleccionada" onclick="location.href='./index.html'" href="#">INICIAR</a></li>
+          <li><a alt="botão de menu quem somos" onclick="location.href='./quienes-somos.html'" href="#">QUEM SOMOS</a></li>
+          <li><a alt="botão de menu de produtos" onclick="location.href='./productos.html'" href="#">PRODUTOS</a></li>
+          <li><a alt="botão de menu fazer pedidos" onclick="location.href='./realizar-pedido.html'" href="#">COLOCAR PEDIDOS</a></li>
+          <li><a alt="botão de menu entre em contato conosco" onclick="location.href='./contactar.html'" href="#">CONTATE-NOS</a></li>
+		 </ul>
+	</div>
+	
+	
+<!--CONTIENE LA FOTO CENTRAL Y EL SLOGAN-->
+	<div id="pad"> <img alt="Foto central com pães, grãos e amassadeira" id=fotcentral src="img/cabecera.jpg">
+		 <div><p id=hij>Irmãs Migas sempre pensando em você :)</p></div>
+	</div>
+
+<!--CONTIENE LOS DOS BLOQUES: IZQUIERDO: NUESTROS PRODUCTOS CON TEXTO Y DOS FOTOS CON SUS BOTONES DE LAS DOS SECCIONES, PANADERIA Y PASTELERIA - DERECHO: FORMULARIO-->          
+<div class=nav>
+
+<!--BLOQUE IZQUIERDO--> 
+         
+<!--TITULAR Y TEXTO-->          
+  <div class="panybot">
+         <p class="titprod" >Nossos produtos</p>
+         <p id="prod">Nossos produtos irão surpreendê-lo com sua excelente qualidade e aparência cuidadosa. Massa de mãe feita com o tempo e o amor necessário para obter produtos saudáveis, orgânicos e com bons preços.</p>
+
+<!--BLOQUE DOS FOGOTRAFIAS CON SUS BOTONES PANADERIA Y PASTELERIA-->          
+	<div id="contenpancroi">
+	
+<!--BLOQUE PANADERIA-->          
+        	 <div class="panybot">
+           		<img alt="Foto cesta de panes que indica seccion panadería" id=pan src="img/pan.jpg"><br><br>
+           		 <a alt="boton acceso a panaderia" href="buno" id="botonuno">Padaria</a>
+        	</div>
+  <!--BLOQUE PASTELERIA-->          
+			 <div class="panybot">
+          		<img alt="Foto croisants que indica seccion pasteleria" id=croissant src="img/croissant.jpg"><br><br>
+          		 <a alt="Boton acceso a pasteleria" href="bdos" id="botondos">Pastelaria</a>
+			</div>
+	</div>
+      
+</div>
+
+<!--BLOQUE DERECHO FORMULARIO PEDIDO--> 
+  <section id="seccion" >
+  
+   <form class="formulario">
+   
+<!--TITULO FORMULARIO<--> 
+         <p class="titprod" >Faça seu pedido</p>
+         
+<!--DATOS FORMULARIO<-->           
+       <div class=fondFormul>
+         <label class="label" for="name">Primeiro nome:</label>
+       	 <input class="textar" type="text" id="name" />
+       </div>
+       <div class=fondFormul>
+           <label class="label" for="name">Sobrenome:</label>
+           <input class="textar" type="text" id="apellidos" />
+       </div>
+       <div class=fondFormul>
+           <label class="label" for="mail">E-mail:</label>
+           <input class="textar" type="email" id="mail" />
+         </div>   
+
+<!--SUBTITULO FORMULARIO<--> 
+        <p class="titprodnorm" >¿Quais produtos você quer comprar??</p>
+        
+<!--CONTENEDOR DOS COLUMNAS PRODUCTOS<--> 
+         <div class="columnasproductos">
+         
+<!--BLOQUE DEL FORMULARIO PRODUCTOS A ELEGIR PANADERIA<--> 
+            <div class="saladoydulce">
+               <p class="titprod" >Nosso salgado</p>
+
+               <input type="checkbox" name="option" id="check1" />
+              <label class="productosformulario"  for="check1">Pão de trigo</label><br>
+              <input type="checkbox" name="option" id="check2" />
+              <label  class="productosformulario" for="check2">Pão de Trigo o pais</label><br />
+              <input type="checkbox" name="option" id="check3" />
+              <label class="productosformulario" for="check3">Pão de centeio</label><br />
+              <input type="checkbox" name="option" id="check4" />
+              <label class="productosformulario" for="check4">Pão integral sem sal</label><br />
+              <input type="checkbox" name="option" id="check5" />
+              <label class="productosformulario"  for="check5">Pão de cereais</label><br />
+              <input type="checkbox" name="option" id="check6" />
+              <label class="productosformulario" for="check6">Pao de alho</label><br />
+              <input type="checkbox" name="option" id="check7" />
+              <label class="productosformulario" for="check7">Pão de Nozes</label><br />
+              <input type="checkbox" name="option" id="check8" />
+              <label class="productosformulario" for="check8">Pão de Quinoa</label><br />
+              <input type="checkbox" name="option" id="check9" />
+              <label class="productosformulario" for="check9">Pão de cebola</label><br />
+              <input type="checkbox" name="option" id="check10" />
+              <label class="productosformulario" for="check10">Pretzel</label><br /><br>
+           </div>
+<!--BLOQUE DEL FORMULARIO PRODUCTOS A ELEGIR PASTELERIA<-->
+            <div class="saladoydulce">
+              <p class=titprod >Nuestros dulces</p>
+
+            <input type="checkbox" name="option" id="check11" />
+            <label class="productosformulario" for="check11">Croissant</label><br />
+            <input type="checkbox" name="option" id="check12" />
+            <label class="productosformulario" for="check12">Donut</label><br />
+            <input type="checkbox" name="option" id="check13" />
+            <label class="productosformulario" for="check13">Macarrons</label><br />
+            <input type="checkbox" name="option" id="check14" />
+            <label class="productosformulario"  for="check14">Ensimadas</label><br />
+            <input type="checkbox" name="option" id="check15" />
+            <label class="productosformulario" for="check15">Napolitanos</label><br />
+            <br>
+            <br>
+            <br>
+<!--BOTON REALIZAR PEDIDO<-->
+            <div><a alt="botão de ordem" href="botpedido" id="botpedido">Fazer pedido</a><br>
+            </div>
+
+        </div>
+
+      </div> 
+      
+<!--INFERIOR FORMULARIO, CHECK ACEPTAR AVISO LEGAL<-->
+      <div id="aviso">
+        <input alt="aviso legal aceptar" type="checkbox" name="option" id="check16" />
+        <label for="check16">Eu aceito o aviso legal</label>
+      </div>  
+      
+  </form>
+
+</section>
+
+
+</body>
+
+<!--FOOTER CON TRES BLOQUES: CONTACTA CON NOSOTROS, REDES Y MAPA LOCALIZACION<-->
+
+<footer id="fot">
+<!--BLOQUE 1 CONTACTA CON NOSOTROS<-->
+  <div class="finaldiv1">
+    <form>
+<!--DATOS FORMULARIO CONTACTAR<-->
+    <p id=final1 >Contate-nos</p>
+    <p id=final2 >www.migashermanas.com  -  info@migashermanas.com</p>
+
+    <label class="label2" for="name2">Primeiro nome:</label>
+        <input class="textar2" type="text" id="name2" /><br>
+
+        <label class="label2" for="name2">Sobrenome:</label>
+        <input class="textar2" type="text" id="apellidos2" /><br>
+
+
+        <label class="label2" for="mail2">E-mail:</label>
+        <input class="textar2" type="email" id="mail2" /><br>
+
+
+        <label class="label2" for="msg">Comentários:</label>
+        <textarea class="textar2" id="msg"></textarea><br>
+        
+<!--INFERIOR FORMULARIO CONTACTAR CHECK ACEPTAR AVISO LEGAL<-->
+        <input  alt="aviso legal aceptar" type="checkbox" name="option2" id="check17" />
+        <label id="aviso2" for="check17">Eu aceito o aviso legal</label>
+        
+<!--BOTON ENVIO DATOS CONTACTO<-->
+        <a alt="boton envio datos para contactar" href="botenvio" id="botenvio">Enviar</a><br>
+
+    </form>
+        
+  </div>
+  
+  <!--BLOQUE 2 REDES SOCIALES<-->
+  <div class="finaldiv2">
+    <p id=final3 >Seguimos em:</p>
+    <img alt="Logotipo facebook" class="ic" src="img/facebook.png">
+    <img alt="Logotipo twitter"  class="ic" src="img/001-twitter.png">
+    <img alt="Logotipo instagram" class="ic" src="img/002-instagram.png">
+  </div>
+
+  <!--BLOQUE 3 LOCALIZACION<-->
+  <div class="finaldiv3">
+    <p id=final1 >Localização</p>
+    <p id=final4 >Avda. Luis Espada, 26 bajo - 32600 Verin, Province of Ourense</p><br>
+    <img alt="Migas irmã localização no mapa" class="fotlocalizacion" src="img/localizacion.png">
+  </div>
+
+</footer>
+
+</html>
+
+
+
+  
